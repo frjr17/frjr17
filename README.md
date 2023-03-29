@@ -1,4 +1,4 @@
-# Hello, I'm [Your Name] 👋
+# Hello, I'm Hernan Valencia 👋
 
 I'm a passionate Fullstack and DevOps Developer, constantly learning and adapting to new technologies to create high-quality web applications. My focus is to create user-friendly and scalable web solutions that deliver a seamless experience.
 
@@ -51,4 +51,4 @@ In addition, I am constantly learning and staying up-to-date with the latest tec
 
 ## Contact Me
 
-If you're interested in working with me or have any questions, please feel free to reach out to me via email at [your.email@domain.com](mailto:your.email@domain.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/your-linkedin-profile/).
+If you're interested in working with me or have any questions, please feel free to reach out to me via email at [frjr17@criptext.com](mailto:frjr17@criptext.com).
