@@ -1,6 +1,6 @@
 # Hello, I'm Hernan Valencia 👋
 
-I'm a passionate Fullstack and DevOps Developer, constantly learning and adapting to new technologies to create high-quality web applications. My focus is to create user-friendly and scalable web solutions that deliver a seamless experience.
+I'm a passionate Fullstack Developer, constantly learning and adapting to new technologies to create high-quality web applications. My focus is to create user-friendly and scalable web solutions that deliver a seamless experience.
 
 ## My Skills
 
