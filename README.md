@@ -7,7 +7,7 @@ I'm a passionate Fullstack and DevOps Developer, constantly learning and adaptin
 ### Programming Languages
 
 ![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript)
-![TypeScript](https://img.shields.io/badge/-TypeScript-blue?style=flat-square&logo=typescript)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 
 ### Frontend Development
 
