@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Intro() {
   return (
     <section id="intro" className="s-intro target-section">
@@ -119,11 +121,7 @@ export default function Intro() {
       </ul>
 
       <div className="s-intro__content-media">
-        <img
-          src="images/intro-bg.jpg"
-          srcSet="images/intro-bg.jpg 1x, images/intro-bg.jpg 2x"
-          alt=""
-        />
+        <Image src="images/intro-bg.jpg" alt="" />
       </div>
 
       <div className="s-intro__btn-download">
