@@ -1,9 +1,11 @@
+"use client";
 import About from "./components/about";
 import Footer from "./components/footer";
 import Header from "./components/header";
 import Intro from "./components/intro";
 import Numbers from "./components/numbers";
 import Works from "./components/works";
+import "glightbox";
 
 export default function Home() {
   return (

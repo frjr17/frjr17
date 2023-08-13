@@ -22,13 +22,18 @@ export default function Works() {
               <Image
                 width={553.59}
                 height={553.59}
-                src="/images/folio/white_turban.jpg"
+                style={{
+                  objectFit: "cover",
+                  width: "553.59px",
+                  height: "553.59px",
+                }}
+                src="/images/folio/netflix-clone.png"
                 alt=""
               />
             </div>
             <div className="entry__info">
-              <h4 className="entry__title">White Knit Cap</h4>
-              <div className="entry__cat">Frontend Design</div>
+              <h4 className="entry__title">Netflix Clone</h4>
+              <div className="entry__cat">Fullstack Development</div>
             </div>
           </a>
 

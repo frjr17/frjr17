@@ -49,6 +49,8 @@ export default function RootLayout({
           href="favicon-16x16.png"
         />
         <link rel="manifest" href="site.webmanifest" />
+        <script src="/js/plugins.js" defer></script>
+        <script src="/js/main.js" defer></script>
       </Head>
       <body className={inter.className}>{children}</body>
     </html>
