@@ -121,7 +121,7 @@ export default function Intro() {
       </ul>
 
       <div className="s-intro__content-media">
-        <Image src="images/intro-bg.jpg" alt="" />
+        <Image src="/images/intro-bg.jpg" width={674.5} height={864} alt="" />
       </div>
 
       <div className="s-intro__btn-download">

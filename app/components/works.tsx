@@ -19,7 +19,12 @@ export default function Works() {
             data-glightbox="title: White Knit Cap; description: .entry__desc-01"
           >
             <div className="entry__thumb">
-              <Image src="images/folio/white_turban.jpg" alt="" />
+              <Image
+                width={553.59}
+                height={553.59}
+                src="/images/folio/white_turban.jpg"
+                alt=""
+              />
             </div>
             <div className="entry__info">
               <h4 className="entry__title">White Knit Cap</h4>
@@ -43,7 +48,12 @@ export default function Works() {
             data-glightbox="title: WoodCraft; description: .entry__desc-02"
           >
             <div className="entry__thumb">
-              <Image src="images/folio/woodcraft.jpg" alt="" />
+              <Image
+                width={553.59}
+                height={553.59}
+                src="/images/folio/woodcraft.jpg"
+                alt=""
+              />
             </div>
             <div className="entry__info">
               <h4 className="entry__title">WoodCraft</h4>
@@ -68,7 +78,12 @@ export default function Works() {
             data-glightbox="title: Caffeine & Tulips; description: .entry__desc-03"
           >
             <div className="entry__thumb">
-              <Image src="images/folio/caffeine_and_tulips.jpg" alt="" />
+              <Image
+                width={553.59}
+                height={553.59}
+                src="/images/folio/caffeine_and_tulips.jpg"
+                alt=""
+              />
             </div>
             <div className="entry__info">
               <h4 className="entry__title">Caffeine & Tulips</h4>
@@ -93,7 +108,12 @@ export default function Works() {
             data-glightbox="title: Grayscale; description: .entry__desc-04"
           >
             <div className="entry__thumb">
-              <Image src="images/folio/grayscale.jpg" alt="" />
+              <Image
+                width={553.59}
+                height={553.59}
+                src="/images/folio/grayscale.jpg"
+                alt=""
+              />
             </div>
             <div className="entry__info">
               <h4 className="entry__title">Grayscale</h4>
@@ -118,7 +138,12 @@ export default function Works() {
             data-glightbox="title: The Lamp; description: .entry__desc-05"
           >
             <div className="entry__thumb">
-              <Image src="images/folio/lamp.jpg" alt="" />
+              <Image
+                width={553.59}
+                height={553.59}
+                src="/images/folio/lamp.jpg"
+                alt=""
+              />
             </div>
             <div className="entry__info">
               <h4 className="entry__title">The Lamp</h4>
@@ -143,7 +168,12 @@ export default function Works() {
             data-glightbox="title: Tropical; description: .entry__desc-06"
           >
             <div className="entry__thumb">
-              <Image src="images/folio/tropical.jpg" alt="" />
+              <Image
+                width={553.59}
+                height={553.59}
+                src="/images/folio/tropical.jpg"
+                alt=""
+              />
             </div>
             <div className="entry__info">
               <h4 className="entry__title">Tropical</h4>
@@ -173,7 +203,9 @@ export default function Works() {
               <div className="s-testimonials__slide swiper-slide">
                 <div className="s-testimonials__author">
                   <Image
-                    src="images/avatars/user-02.jpg"
+                    width={553.59}
+                    height={553.59}
+                    src="/images/avatars/user-02.jpg"
                     className="s-testimonials__avatar"
                     alt="testimonials__avatar"
                   />
@@ -193,7 +225,9 @@ export default function Works() {
               <div className="s-testimonials__slide swiper-slide">
                 <div className="s-testimonials__author">
                   <Image
-                    src="images/avatars/user-03.jpg"
+                    width={553.59}
+                    height={553.59}
+                    src="/images/avatars/user-03.jpg"
                     className="s-testimonials__avatar"
                     alt="testimonials__avatar"
                   />
@@ -214,7 +248,9 @@ export default function Works() {
               <div className="s-testimonials__slide swiper-slide">
                 <div className="s-testimonials__author">
                   <Image
-                    src="images/avatars/user-01.jpg"
+                    width={56}
+                    height={56}
+                    src="/images/avatars/user-01.jpg"
                     className="s-testimonials__avatar"
                     alt="testimonials__avatar"
                   />
@@ -235,7 +271,9 @@ export default function Works() {
               <div className="s-testimonials__slide swiper-slide">
                 <div className="s-testimonials__author">
                   <Image
-                    src="images/avatars/user-06.jpg"
+                    width={56}
+                    height={56}
+                    src="/images/avatars/user-06.jpg"
                     className="s-testimonials__avatar"
                     alt="testimonials__avatar"
                   />

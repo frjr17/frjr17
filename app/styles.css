@@ -959,7 +959,7 @@ table {
 html {
     font-size : var(--base-size);
     box-sizing: border-box;
-    scroll-behavior: smooth;
+    scroll-behavior: smooth !important;
 }
 
 *,

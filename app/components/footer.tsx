@@ -155,9 +155,9 @@ export default function Footer() {
 
         <div className="column xl-6 lg-12">
           <p className="ss-copyright">
-            <span>© Copyright Hudson 2023</span>
+            <span>© Copyright frjr17 2023</span>
             <span>
-              Design by <a href="https://styleshout.com/">StyleShout</a>
+              Coded by <a href="https://github.com/frjr17">Frjr17</a>
             </span>
           </p>
         </div>
