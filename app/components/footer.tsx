@@ -18,12 +18,16 @@ export default function Footer() {
           <p className="attention-getter">
             I&apos;m excited to connect with you! Whether you&apos;re interested
             in collaborating on a project, have questions about my services, or
-            just want to say hello, I&apos;m here and ready to engage. Your
-            ideas and inquiries are important to me, and I&apos;m eager to
-            discuss how I can assist you in achieving your goals. Feel free to
-            reach out through the provided contact information, and I&apos;ll
-            make sure to respond as soon as possible. Let&apos;s start a
-            conversation and explore the possibilities together!
+            just want to say hello, I&apos;m here and ready to engage.
+          </p>
+          <p className="attention-getter">
+            Your ideas and inquiries are important to me, and I&apos;m eager to
+            discuss how I can assist you in achieving your goals.
+          </p>
+          <p className="attention-getter">
+            Feel free to reach out through the provided contact information, and
+            I&apos;ll make sure to respond as soon as possible. Let&apos;s start
+            a conversation and explore the possibilities together!
           </p>
         </div>
 
