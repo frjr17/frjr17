@@ -42,7 +42,7 @@ export const socialNetworks: { name: string; href: string; path: string }[] = [
   {
     name: "Tiktok",
     href: "https://tiktok.com/_frjr17",
-    path: "/svg/instagram.svg",
+    path: "/svg/tiktok.svg",
   },
   {
     name: "Dev Community",
