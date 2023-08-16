@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { projects } from "../lib/data";
 
 export default function Works() {
   return (
@@ -12,40 +13,44 @@ export default function Works() {
       </div>
 
       <div className="row folio-entries">
-        <div className="column entry">
-          <a
-            href="images/folio/gallery/g-turban.jpg"
-            className="entry__link glightbox"
-            data-glightbox="title: White Knit Cap; description: .entry__desc-01"
-          >
-            <div className="entry__thumb">
-              <Image
-                width={553.59}
-                height={553.59}
-                style={{
-                  objectFit: "cover",
-                  width: "553.59px",
-                  height: "553.59px",
-                }}
-                src="/images/folio/netflix-clone.png"
-                alt=""
-              />
-            </div>
-            <div className="entry__info">
-              <h4 className="entry__title">Netflix Clone</h4>
-              <div className="entry__cat">Fullstack Development</div>
-            </div>
-          </a>
+        {projects.map((project, i) => {
+          // To mantain DRY
+          const j = i < 10 ? i : "0" + i;
+          return (
+            <div key={project.name} className="column entry">
+              <a
+                href={project.imgUrl}
+                className="entry__link glightbox"
+                data-glightbox={`title: ${project.name}; description: .entry__desc-${j}`}
+              >
+                <div className="entry__thumb">
+                  <Image
+                    width={553.59}
+                    height={553.59}
+                    style={{
+                      objectFit: "cover",
+                      width: "553.59px",
+                      height: "553.59px",
+                    }}
+                    src={project.imgUrl}
+                    alt={project.name}
+                  />
+                </div>
+                <div className="entry__info">
+                  <h4 className="entry__title">{project.name}</h4>
+                  <div className="entry__cat">{project.description}</div>
+                </div>
+              </a>
 
-          <div className="glightbox-desc entry__desc-01">
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Inventore ipsum iste soluta fugiat, impedit illum ducimus deleniti
-              facilis ab, tempora non! Nisi, tempora provident.
-              <a href="https://www.behance.net/">Project Link</a>.
-            </p>
-          </div>
-        </div>
+              <div className={`glightbox-desc entry__desc-${j}`}>
+                <p>
+                  {project.description}
+                  <a href={project.projectUrl}>Project Link</a>.
+                </p>
+              </div>
+            </div>
+          );
+        })}
         <div className="column entry">
           <a
             href="images/folio/gallery/g-woodcraft.jpg"
