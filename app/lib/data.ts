@@ -17,3 +17,13 @@ export const headerNavs = [
     href: "#footer",
   },
 ];
+
+export const socialNetworks = [
+  // LinkedIn
+  // Github
+  // Twitter
+  // Instagram
+  // TikTok
+  // Dev Community
+  // Hashnode
+];
