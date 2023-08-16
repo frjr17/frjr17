@@ -7,8 +7,8 @@ export default function Header() {
       <div className="row s-header__inner">
         <div className="s-header__block">
           <div className="s-header__logo">
-            <Link className="logo castoro" href="index.html">
-              Adrien.
+            <Link className="logo castoro" href="#">
+              Adrien
             </Link>
           </div>
 
