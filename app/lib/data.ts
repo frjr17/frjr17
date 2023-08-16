@@ -59,11 +59,4 @@ export const socialNetworks: { name: string; href: string; path: string }[] = [
     href: "https://medium.com/@frjr17",
     path: "/svg/medium.svg",
   },
-  // LinkedIn
-  // Github
-  // Twitter
-  // Instagram
-  // TikTok
-  // Dev Community
-  // Hashnode
 ];
