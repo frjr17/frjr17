@@ -2895,8 +2895,8 @@ td:last-child {
 .glightbox-mobile .glightbox-container .gslide-desc .desc-more {
     opacity: 1;
 }
-.glightbox-slider{
-    overflow:auto
+.gslider{
+    overflow:auto !important
 }
 /* ------------------------------------------------------------------- 
  * responsive:
