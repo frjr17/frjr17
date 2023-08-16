@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { awards } from "../lib/data";
 
 export default function About() {
   return (
@@ -42,24 +43,18 @@ export default function About() {
               <h4 className="s-about__block-title">Awards</h4>
 
               <ul className="s-about__list">
-                <li>
-                  <Link href="https://www.freecodecamp.org/certification/frjr17/responsive-web-design">
-                    Responsive Web Design
-                    <span>freeCodeCamp — 2023</span>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="https://www.freecodecamp.org/certification/frjr17/javascript-algorithms-and-data-structures">
-                    JavaScript Algorithms and Data Structures
-                    <span>freeCodeCamp - 2023</span>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="https://www.freecodecamp.org/certification/frjr17/front-end-development-libraries">
-                    Frontend Development Libraries
-                    <span>freeCodeCamp - 2023</span>
-                  </Link>
-                </li>
+                {awards.map((award) => {
+                  return (
+                    <li key={award.title}>
+                      <Link href={award.href}>
+                        {award.title}
+                        <span>
+                          {award.institution} — {award.year}
+                        </span>
+                      </Link>
+                    </li>
+                  );
+                })}
               </ul>
             </div>
 

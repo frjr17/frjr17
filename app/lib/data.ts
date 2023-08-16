@@ -18,6 +18,39 @@ export const headerNavs = [
   },
 ];
 
+export const experience: { company: string; position: string }[] = [
+  {
+    company: "Solusoft",
+    position: "Practitioner",
+  },
+];
+
+export const awards: {
+  title: string;
+  href: string;
+  institution: string;
+  year: number;
+}[] = [
+  {
+    title: "Responsive Web Design",
+    href: "https://www.freecodecamp.org/certification/frjr17/responsive-web-design",
+    institution: "freeCodeCamp",
+    year: 2023,
+  },
+  {
+    title: "JavaScript Algorithms and Data Structures",
+    href: "https://www.freecodecamp.org/certification/frjr17/javascript-algorithms-and-data-structures",
+    institution: "freeCodeCamp",
+    year: 2023,
+  },
+  {
+    title: "Frontend Development Libraries",
+    href: "https://www.freecodecamp.org/certification/frjr17/front-end-development-libraries",
+    institution: "freeCodeCamp",
+    year: 2023,
+  },
+];
+
 export const socialNetworks: { name: string; href: string; path: string }[] = [
   {
     name: "LinkedIn",
