@@ -12,7 +12,7 @@ export default function Intro() {
             <h1 className="s-intro__content-title">
               I&apos;m Adrien. <br />
               A Fullstack Developer <br />
-              base in Panamá.
+              based in Panamá.
             </h1>
 
             <div className="s-intro__content-btns">
@@ -50,9 +50,14 @@ export default function Intro() {
       </div>
 
       <div className="s-intro__btn-download">
-        <a className="btn btn--stroke" href="#0">
+        <Link
+          target="_blank"
+          href="/resume.pdf"
+          className="btn btn--stroke btn--large u-fullwidth"
+          style={{ marginBottom: 5 }}
+        >
           Get My CV
-        </a>
+        </Link>
       </div>
 
       <div className="s-intro__scroll-down">
