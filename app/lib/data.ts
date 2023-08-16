@@ -51,6 +51,37 @@ export const awards: {
   },
 ];
 
+export const skills: {
+  name: string;
+  description?: string;
+}[] = [
+  {
+    name: "Front-End Development",
+    description:
+      "Creating engaging user interfaces and experiences using HTML, CSS, and JavaScript to interact with users directly.",
+  },
+  {
+    name: "Back-End Development",
+    description:
+      " Building server-side logic, databases, and APIs using languages like Python, Node.js, or Java to manage data and handle application functionality.",
+  },
+  {
+    name: "Graphic Design",
+    description:
+      "Skilled in crafting visually appealing and impactful digital and print designs.",
+  },
+  {
+    name: "UI/UX",
+    description:
+      "Adept at creating intuitive and aesthetically pleasing user interfaces that enhance the overall user experience.",
+  },
+  {
+    name: "DevOps",
+    description:
+      "Experienced in automating and optimizing the software development lifecycle for efficient and reliable deployment.",
+  },
+];
+
 export const socialNetworks: { name: string; href: string; path: string }[] = [
   {
     name: "LinkedIn",

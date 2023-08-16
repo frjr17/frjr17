@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { awards } from "../lib/data";
+import { awards, skills } from "../lib/data";
 
 export default function About() {
   return (
@@ -61,11 +61,14 @@ export default function About() {
             <div className="grid-list-items__item s-about__block">
               <h4 className="s-about__block-title">Skills</h4>
               <ul className="s-about__list">
-                <li>Front End Development</li>
-                <li>Back End Development</li>
-                <li>Graphic Design</li>
-                <li>UI/UX</li>
-                <li>DevOps</li>
+                {skills.map((skill) => {
+                  return (
+                    <li key={skill.name}>
+                      {skill.name}
+                      {skill.description && <span>{skill.description}</span>}
+                    </li>
+                  );
+                })}
               </ul>
             </div>
           </div>
