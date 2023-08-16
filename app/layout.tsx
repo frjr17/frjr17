@@ -6,8 +6,8 @@ import "./vendor.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Frjr17 Portfolio",
-  description: "Frjr17 - Hernán Domínguez",
+  title: "Frjr17 - MERN Fullstack Web Developer",
+  description: "I'm Hernan Domínguez, a MERN Fullstack Web Developer.",
 };
 
 export default function RootLayout({

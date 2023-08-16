@@ -19,7 +19,7 @@ export default function Works() {
           const j = i < 10 ? i : "0" + i;
           return (
             <div key={project.name} className="column entry">
-              <a
+              <Link
                 href={project.imgUrl}
                 className="entry__link glightbox"
                 data-glightbox={`title: ${project.name}; description: .entry__desc-${j}`}
@@ -41,7 +41,7 @@ export default function Works() {
                   <h1 className="entry__title">{project.name}</h1>
                   <div className="entry__cat">{project.description}</div>
                 </div>
-              </a>
+              </Link>
 
               <div className={`glightbox-desc entry__desc-${j}`}>
                 <p>{project.description}</p>

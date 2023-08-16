@@ -2896,7 +2896,7 @@ td:last-child {
     opacity: 1;
 }
 .gslider{
-    overflow:auto !important
+    overflow-y:auto !important
 }
 /* ------------------------------------------------------------------- 
  * responsive:
