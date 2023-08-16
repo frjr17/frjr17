@@ -168,3 +168,34 @@ export const projects: {
     projectUrl: "https://github.com/frjr17/pomodoroClock",
   },
 ];
+
+export const numbers: {
+  name: string;
+  number: number | string;
+  description?: string;
+}[] = [
+  {
+    name: "Happy Customers",
+    number: 15,
+    description:
+      "The most rewarding part of my journey is seeing the smiles on my satisfied customers' faces. I've built a community of happy customers who trust in my brand. Each happy customer reinforces my commitment to innovation and excellence, motivating me to always strive for the best.",
+  },
+  {
+    name: "Projects Completed",
+    number: 5,
+    description:
+      "I take great pride in successfully bringing a wide range of projects to fruition. From small-scale endeavors to complex ventures, I've completed numerous projects across various industries. Each project represents a challenge conquered and a step forward in my ongoing pursuit of excellence.",
+  },
+  {
+    name: "Lines of Code",
+    number: "15k",
+    description:
+      "Behind every digital creation of mine lies a foundation of thoughtfully crafted code. I'm dedicated to creating efficient, reliable, and inventive solutions, as reflected in the countless lines of code I've written. My coding efforts are driven by a passion for crafting products that make a positive impact in the digital realm.",
+  },
+  {
+    name: "Cups of Coffee",
+    number: "85",
+    description:
+      "As I delve into brainstorming, coding marathons, and discussions, cups of coffee stand as my steadfast companions. Each cup symbolizes the energy and dedication I pour into my work. They fuel my creativity and serve as a reminder of the passion that propels me to continually surpass my limits.",
+  },
+];
