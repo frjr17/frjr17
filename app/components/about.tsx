@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { awards, skills } from "../lib/data";
+import { awards, experience, skills } from "../lib/data";
 
 export default function About() {
   return (
@@ -32,10 +32,14 @@ export default function About() {
             <div className="grid-list-items__item s-about__block">
               <h4 className="s-about__block-title">Experience</h4>
               <ul className="s-about__list">
-                <li>
-                  Solusoft
-                  <span>Practitioner</span>
-                </li>
+                {experience.map((work) => {
+                  return (
+                    <li key={work.company}>
+                      {work.company}
+                      <span>{work.position}</span>
+                    </li>
+                  );
+                })}
               </ul>
             </div>
 
