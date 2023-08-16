@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { projects } from "../lib/data";
+import Link from "next/link";
 
 export default function Works() {
   return (
@@ -37,172 +38,22 @@ export default function Works() {
                   />
                 </div>
                 <div className="entry__info">
-                  <h4 className="entry__title">{project.name}</h4>
+                  <h1 className="entry__title">{project.name}</h1>
                   <div className="entry__cat">{project.description}</div>
                 </div>
               </a>
 
               <div className={`glightbox-desc entry__desc-${j}`}>
-                <p>
-                  {project.description}
-                  <a href={project.projectUrl}>Project Link</a>.
-                </p>
+                <p>{project.description}</p>
+                <Link href={project.projectUrl}>Project Link</Link>.
               </div>
             </div>
           );
         })}
-        <div className="column entry">
-          <a
-            href="images/folio/gallery/g-woodcraft.jpg"
-            className="entry__link glightbox"
-            data-glightbox="title: WoodCraft; description: .entry__desc-02"
-          >
-            <div className="entry__thumb">
-              <Image
-                width={553.59}
-                height={553.59}
-                src="/images/folio/woodcraft.jpg"
-                alt=""
-              />
-            </div>
-            <div className="entry__info">
-              <h4 className="entry__title">WoodCraft</h4>
-              <div className="entry__cat">Product Design</div>
-            </div>
-          </a>
-
-          <div className="glightbox-desc entry__desc-02">
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Inventore ipsum iste soluta fugiat, impedit illum ducimus deleniti
-              facilis ab, tempora non! Nisi, tempora provident.
-              <a href="https://www.behance.net/">Project Link</a>.
-            </p>
-          </div>
-        </div>
-
-        <div className="column entry">
-          <a
-            href="images/folio/gallery/g-tulips.jpg"
-            className="entry__link glightbox"
-            data-glightbox="title: Caffeine & Tulips; description: .entry__desc-03"
-          >
-            <div className="entry__thumb">
-              <Image
-                width={553.59}
-                height={553.59}
-                src="/images/folio/caffeine_and_tulips.jpg"
-                alt=""
-              />
-            </div>
-            <div className="entry__info">
-              <h4 className="entry__title">Caffeine & Tulips</h4>
-              <div className="entry__cat">Brand Identity</div>
-            </div>
-          </a>
-
-          <div className="glightbox-desc entry__desc-03">
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Inventore ipsum iste soluta fugiat, impedit illum ducimus deleniti
-              facilis ab, tempora non! Nisi, tempora provident.
-              <a href="https://www.behance.net/">Project Link</a>.
-            </p>
-          </div>
-        </div>
-
-        <div className="column entry">
-          <a
-            href="images/folio/gallery/g-grayscale.jpg"
-            className="entry__link glightbox"
-            data-glightbox="title: Grayscale; description: .entry__desc-04"
-          >
-            <div className="entry__thumb">
-              <Image
-                width={553.59}
-                height={553.59}
-                src="/images/folio/grayscale.jpg"
-                alt=""
-              />
-            </div>
-            <div className="entry__info">
-              <h4 className="entry__title">Grayscale</h4>
-              <div className="entry__cat">Product Design</div>
-            </div>
-          </a>
-
-          <div className="glightbox-desc entry__desc-04">
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Inventore ipsum iste soluta fugiat, impedit illum ducimus deleniti
-              facilis ab, tempora non! Nisi, tempora provident.
-              <a href="https://www.behance.net/">Project Link</a>.
-            </p>
-          </div>
-        </div>
-
-        <div className="column entry">
-          <a
-            href="images/folio/gallery/g-lamp.jpg"
-            className="entry__link glightbox"
-            data-glightbox="title: The Lamp; description: .entry__desc-05"
-          >
-            <div className="entry__thumb">
-              <Image
-                width={553.59}
-                height={553.59}
-                src="/images/folio/lamp.jpg"
-                alt=""
-              />
-            </div>
-            <div className="entry__info">
-              <h4 className="entry__title">The Lamp</h4>
-              <div className="entry__cat">Brand Identity</div>
-            </div>
-          </a>
-
-          <div className="glightbox-desc entry__desc-05">
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Inventore ipsum iste soluta fugiat, impedit illum ducimus deleniti
-              facilis ab, tempora non! Nisi, tempora provident.
-              <a href="https://www.behance.net/">Project Link</a>.
-            </p>
-          </div>
-        </div>
-
-        <div className="column entry">
-          <a
-            href="images/folio/gallery/g-tropical.jpg"
-            className="entry__link glightbox"
-            data-glightbox="title: Tropical; description: .entry__desc-06"
-          >
-            <div className="entry__thumb">
-              <Image
-                width={553.59}
-                height={553.59}
-                src="/images/folio/tropical.jpg"
-                alt=""
-              />
-            </div>
-            <div className="entry__info">
-              <h4 className="entry__title">Tropical</h4>
-              <div className="entry__cat">Frontend Design</div>
-            </div>
-          </a>
-
-          <div className="glightbox-desc entry__desc-06">
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Inventore ipsum iste soluta fugiat, impedit illum ducimus deleniti
-              facilis ab, tempora non! Nisi, tempora provident.
-              <a href="https://www.behance.net/">Project Link</a>.
-            </p>
-          </div>
-        </div>
       </div>
 
-      <div className="row s-testimonials">
+      {/* Testimonials, Sooon... */}
+      {/* <div className="row s-testimonials">
         <div className="column xl-12">
           <h3 className="s-testimonials__header">
             Hear it from My Happy Clients
@@ -305,7 +156,7 @@ export default function Works() {
             <div className="swiper-pagination"></div>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }
