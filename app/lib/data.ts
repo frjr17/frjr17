@@ -49,6 +49,13 @@ export const awards: {
     institution: "freeCodeCamp",
     year: 2023,
   },
+  },
+  {
+    title: "Data Visualization",
+    href: "https://www.freecodecamp.org/certification/frjr17/data-visualization",
+    institution: "freeCodeCamp",
+    year: 2023,
+  },
 ];
 
 export const skills: {
