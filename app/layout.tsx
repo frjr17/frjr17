@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import Head from "next/head";
 import "./styles.css";
 import "./vendor.css";
+import Script from "next/script";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -53,6 +54,7 @@ export default function RootLayout({
         <script src="/js/main.js" defer></script>
       </Head>
       <body className={inter.className}>{children}</body>
+      <Script src={"/js/metricool.js"} id="metricool" strategy="lazyOnload" />
     </html>
   );
 }
