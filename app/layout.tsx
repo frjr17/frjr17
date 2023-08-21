@@ -53,6 +53,8 @@ export default function RootLayout({
         <script src="/js/plugins.js" defer></script>
         <script src="/js/main.js" defer></script>
       </Head>
+      <img src="https://tracker.metricool.com/c3po.jpg?hash=69f1f03779aebed986117ea59370005e" />
+
       <body className={inter.className}>{children}</body>
       <Script src={"/js/metricool.js"} id="metricool" strategy="lazyOnload" />
     </html>
