@@ -152,27 +152,6 @@ export const projects: {
     skills: ["Front-End Development", "Back-End Development"],
     projectUrl: "https://github.com/frjr17/netflixClone",
   },
-  {
-    name: "Drum Machine",
-    description: "A 9-pad drum machine using JavaScript",
-    imgUrl: "/images/folio/drum-machine.png",
-    skills: ["Front-End Development"],
-    projectUrl: "https://github.com/frjr17/drumMachine",
-  },
-  {
-    name: "Markdown Previewer",
-    description: "A previewer for markdown code",
-    imgUrl: "/images/folio/markdown-previewer.png",
-    skills: ["Front-End Development"],
-    projectUrl: "https://github.com/frjr17/markdownPreviewer",
-  },
-  {
-    name: "Pomodoro Clock",
-    description: "A clock for Pomodoro Technique",
-    imgUrl: "/images/folio/pomodoro-clock.png",
-    skills: ["Front-End Development"],
-    projectUrl: "https://github.com/frjr17/pomodoroClock",
-  },
 ];
 
 export const numbers: {

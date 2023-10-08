@@ -8,7 +8,7 @@ export default function Works() {
       <div className="row">
         <div className="column xl-12">
           <div className="section-header" data-num="02">
-            <h2 className="text-display-title">Selected Works.</h2>
+            <h2 className="text-display-title">Recent Projects.</h2>
           </div>
         </div>
       </div>
