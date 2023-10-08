@@ -12,7 +12,7 @@ export default function Intro() {
             <h1 className="s-intro__content-title">
               I&apos;m Adrien. <br />
               A Fullstack Developer <br />
-              based in Panamá.
+              based in Panama.
             </h1>
 
             <div className="s-intro__content-btns">
