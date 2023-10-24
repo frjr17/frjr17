@@ -21,7 +21,15 @@ export const headerNavs = [
 export const experience: { company: string; position: string }[] = [
   {
     company: "Solusoft",
+    position: "Data Analyst",
+  },
+  {
+    company: "Solusoft",
     position: "Practitioner",
+  },
+  {
+    company: "Fullstack Developer",
+    position: "Legality Panamá",
   },
 ];
 
