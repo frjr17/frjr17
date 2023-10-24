@@ -36,9 +36,9 @@ export default function About() {
                   return (
                     <li key={work.position}>
                       {work.position}
+                      <span>{work.company}</span>
                       <span>
-                        {work.company} <br />
-                        {work.date}
+                        <i>({work.date})</i>
                       </span>
                     </li>
                   );
