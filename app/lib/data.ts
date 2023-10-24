@@ -55,6 +55,18 @@ export const awards: {
     institution: "freeCodeCamp",
     year: 2023,
   },
+  {
+    title: "Backend Development and APIs",
+    href: "https://www.freecodecamp.org/certification/frjr17/back-end-development-and-apis",
+    institution: "freeCodeCamp",
+    year: 2023,
+  },
+  {
+    title: "Relational Databases",
+    href: "https://www.freecodecamp.org/certification/frjr17/relational-database-v8",
+    institution: "freeCodeCamp",
+    year: 2023,
+  },
 ];
 
 export const skills: {
