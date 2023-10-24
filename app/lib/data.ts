@@ -115,16 +115,6 @@ export const socialNetworks: { name: string; href: string; path: string }[] = [
     path: "/svg/tiktok.svg",
   },
   {
-    name: "Dev Community",
-    href: "https://dev.to/frjr17",
-    path: "/svg/devto.svg",
-  },
-  {
-    name: "Hashnode",
-    href: "https://hashnode.com/@frjr17",
-    path: "/svg/hashnode.svg",
-  },
-  {
     name: "Medium",
     href: "https://medium.com/@frjr17",
     path: "/svg/medium.svg",
