@@ -34,9 +34,12 @@ export default function About() {
               <ul className="s-about__list">
                 {experience.map((work) => {
                   return (
-                    <li key={work.company}>
-                      {work.company}
-                      <span>{work.position}</span>
+                    <li key={work.position}>
+                      {work.position}
+                      <span>
+                        {work.company} <br />
+                        {work.date}
+                      </span>
                     </li>
                   );
                 })}

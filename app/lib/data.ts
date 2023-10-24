@@ -18,20 +18,24 @@ export const headerNavs = [
   },
 ];
 
-export const experience: { company: string; position: string }[] = [
-  {
-    company: "Solusoft",
-    position: "Data Analyst",
-  },
-  {
-    company: "Solusoft",
-    position: "Practitioner",
-  },
-  {
-    company: "Fullstack Developer",
-    position: "Legality Panamá",
-  },
-];
+export const experience: { company: string; position: string; date: string }[] =
+  [
+    {
+      company: "Solusoft",
+      position: "Data Analyst",
+      date: "Sep 2023 - Present",
+    },
+    {
+      company: "Solusoft",
+      position: "Practitioner",
+      date: "Sep 2022 - Jun 2023",
+    },
+    {
+      company: "Fullstack Developer",
+      position: "Legality Panamá",
+      date: "Jan 2019 - Dec 2021",
+    },
+  ];
 
 export const awards: {
   title: string;
