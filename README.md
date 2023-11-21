@@ -5,26 +5,37 @@ I'm a passionate Fullstack Developer, constantly learning and adapting to new te
 ## My Skills
 
 ### Programming Languages
-
-![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript)
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-black?logo=javascript)
+![TypeScript](https://img.shields.io/badge/-TypeScript-white?logo=typescript)
+![Python](https://img.shields.io/badge/-Python-yellow?logo=python)
+![Java](https://img.shields.io/badge/-Java-red?logo=oracle)
 
 ### Frontend Development
-
-![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react)
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=ffffff)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3)
+![HTML5](https://img.shields.io/badge/-HTML5-orange?logo=html5&&logoColor=white)
+![CSS3](https://img.shields.io/badge/-CSS3-blue?logo=css3)
+![React](https://img.shields.io/badge/-React-navy?logo=react&&logoColor=white)
+![React Native](https://img.shields.io/badge/-React%20Native-white?logo=react)
+![Vue.js](https://img.shields.io/badge/-Vue.js-white?logo=vue.js)
+![Angular](https://img.shields.io/badge/-Angular-red?logo=angular)
 
 ### Backend Development
+![Node.js](https://img.shields.io/badge/-Node.js-black?logo=node.js)
+![Flask](https://img.shields.io/badge/-Flask-lightgrey?logo=flask)
+![Django](https://img.shields.io/badge/-Django-brightgreen?logo=django)
+![SpringBoot](https://img.shields.io/badge/-SpringBoot-black?logo=spring)
+![MongoDB](https://img.shields.io/badge/-MongoDB-green?logo=mongodb)
+![SQL](https://img.shields.io/badge/-SQL-white?logo=mysql)
+![API Rest](https://img.shields.io/badge/-API%20Rest-brightgreen?logo=rest)
 
-![Node.js](https://img.shields.io/badge/-Node.js-black?style=flat-square&logo=Node.js)
-![Express.js](https://img.shields.io/badge/-Express.js-yellow?style=flat-square&logo=express)
-
-### Databases
-
-![MongoDB](https://img.shields.io/badge/-MongoDB-green?style=flat-square&logo=mongodb)
-![MySQL](https://img.shields.io/badge/-MySQL-black?style=flat-square&logo=mysql)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-blue?style=flat-square&logo=postgresql)
+### DevOps
+![Software Architect](https://img.shields.io/badge/-Software%20Architect-blueviolet?logo=internetarchive)
+![Kubernetes](https://img.shields.io/badge/-Kubernetes-white?logo=kubernetes)
+![GIT](https://img.shields.io/badge/-GIT-white?logo=git)
+![Docker](https://img.shields.io/badge/-Docker-blue?logo=docker&&logoColor=white)
+![AWS](https://img.shields.io/badge/-AWS-goldenrod?logo=amazon-aws)
+![GITHUB](https://img.shields.io/badge/-GitHub-black?logo=github)
+![Azure](https://img.shields.io/badge/-Azure-blue?logo=microsoft-azure)
+![GITLAB](https://img.shields.io/badge/-Gitlab-purple?logo=gitlab)
 
 ### Other Skills
 - Git/GitHub
