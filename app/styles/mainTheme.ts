@@ -59,6 +59,28 @@ const mainTheme: Partial<ChakraTheme> = extendTheme({
       },
     },
   },
+  colors: {
+    primary1: "#01080E",
+    primary2: "#011627",
+    primary3: "#011221",
+    secondary1: "#607B96",
+    secondary2: "#3C9D93",
+    secondary3: "#4D5BCE",
+    secondary4: "#FFFFFF",
+    accent1: "#FEA55F",
+    accent2: "#43D9AD",
+    accent3: "#E99287",
+    accent4: "#C98BDF",
+  },
+
+  styles: {
+    global: (props) => ({
+      body: {
+        bg: props.colorMode === "dark" ? "primary1" : "secondary4",
+        color: props.colorMode === "dark" ? "secondary4" : "primary1",
+      },
+    }),
+  },
 } as Partial<ChakraTheme>);
 
 export default mainTheme;
