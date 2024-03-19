@@ -1,5 +1,4 @@
-import { ChakraTheme, extendTheme } from "@chakra-ui/react";
-import { Fira_Code } from "next/font/google";
+import { type ChakraTheme, extendTheme } from "@chakra-ui/react";
 
 const mainTheme: Partial<ChakraTheme> = extendTheme({
   config: {
