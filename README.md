@@ -49,4 +49,4 @@ In addition, I am constantly learning and staying up-to-date with the latest tec
 
 ## Contact Me
 
-If you're interested in working with me or have any questions, please feel free to reach out to me via email at [frjr17@criptext.com](mailto:hernanadrianv17@gmail.com).
+If you're interested in working with me or have any questions, please feel free to reach out to me via email at [hernanadrianv17@gmail.com](mailto:hernanadrianv17@gmail.com).
