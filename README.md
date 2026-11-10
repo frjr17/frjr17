@@ -1,113 +1,89 @@
-<div align="center">
+<a href="https://frjr17.com">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dist/header-noir.svg">
+  <source media="(prefers-color-scheme: light)" srcset="dist/header-paper.svg">
+  <img alt="adrien() — Hernán Valencia. From architecture to production." src="dist/header-noir.svg" width="100%">
+</picture>
+</a>
 
-# Hernán Valencia
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dist/stats-noir.svg">
+  <source media="(prefers-color-scheme: light)" srcset="dist/stats-paper.svg">
+  <img alt="GitHub stats: contributions, pull requests, stars and public repos" src="dist/stats-noir.svg" width="100%">
+</picture>
 
-### Full-Stack Software Engineer | Cloud-Native Builder | AI Automation Specialist
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dist/languages-noir.svg">
+  <source media="(prefers-color-scheme: light)" srcset="dist/languages-paper.svg">
+  <img alt="Top languages across public repositories" src="dist/languages-noir.svg" width="100%">
+</picture>
 
-[![Website](https://img.shields.io/badge/Website-frjr17.com-0B5FFF?style=for-the-badge&logo=google-chrome&logoColor=white)](https://frjr17.com)
-[![Email](https://img.shields.io/badge/Email-hernanadrianv17%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hernanadrianv17@gmail.com)
-[![Location](https://img.shields.io/badge/Panama-City-006341?style=for-the-badge&logo=google-maps&logoColor=white)](#)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dist/activity-noir.svg">
+  <source media="(prefers-color-scheme: light)" srcset="dist/activity-paper.svg">
+  <img alt="Weekly contributions over the last 52 weeks" src="dist/activity-noir.svg" width="100%">
+</picture>
 
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dist/now-noir.svg">
+  <source media="(prefers-color-scheme: light)" srcset="dist/now-paper.svg">
+  <img alt="Now: Consultant, full-stack & DevOps engineering at CGI — delivery pipelines for 30+ production services on AWS EKS with Jenkins and Argo CD, for US telecom and insurance clients." src="dist/now-noir.svg" width="100%">
+</picture>
 
----
+<a href="https://frjr17.com/en/work/enterprise-cicd-modernization">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dist/work-01-noir.svg">
+  <source media="(prefers-color-scheme: light)" srcset="dist/work-01-paper.svg">
+  <img alt="Case study 01: Enterprise CI/CD modernization — US regional insurer, 30+ production projects" src="dist/work-01-noir.svg" width="100%">
+</picture>
+</a>
 
-I build production-ready software across frontend, backend, data, automation, and infrastructure. My work sits where business workflows meet reliable engineering: scalable web platforms, CI/CD pipelines, Kubernetes deployments, Power Platform solutions, AI-assisted automation, and legacy modernization.
+<a href="https://frjr17.com/en/work/container-hardening">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dist/work-02-noir.svg">
+  <source media="(prefers-color-scheme: light)" srcset="dist/work-02-paper.svg">
+  <img alt="Case study 02: Container hardening, 300+ vulnerabilities to zero — US telecom" src="dist/work-02-noir.svg" width="100%">
+</picture>
+</a>
 
-With 6+ years of experience across law, public sector, energy, tourism, banking, telecommunications, logistics, and real estate, I focus on systems that are maintainable, measurable, and useful in the real world.
+<a href="https://frjr17.com/en/work/legacy-financial-web-platform">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dist/work-03-noir.svg">
+  <source media="(prefers-color-scheme: light)" srcset="dist/work-03-paper.svg">
+  <img alt="Case study 03: Legacy financial desktop software to the web — financial institution" src="dist/work-03-noir.svg" width="100%">
+</picture>
+</a>
 
-## What I Do Best
+<a href="https://frjr17.com/en/work/invoice-processing-automation">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dist/work-04-noir.svg">
+  <source media="(prefers-color-scheme: light)" srcset="dist/work-04-paper.svg">
+  <img alt="Case study 04: Invoice processing, two days to fifteen minutes — enterprise services client" src="dist/work-04-noir.svg" width="100%">
+</picture>
+</a>
 
-- Architect and deliver full-stack applications from idea to production
-- Build clean frontend experiences with React, Next.js, Angular, and Vue
-- Design backend services, APIs, databases, and cloud integrations
-- Containerize and ship applications with Docker, Jenkins, Kubernetes, and ArgoCD
-- Modernize legacy systems into scalable web platforms
-- Automate business processes with Power Platform, Power Automate, Dataverse, and AI Builder
-- Integrate practical AI capabilities for document processing, entity extraction, search, and workflow intelligence
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dist/experience-noir.svg">
+  <source media="(prefers-color-scheme: light)" srcset="dist/experience-paper.svg">
+  <img alt="Experience: CGI (2024 — present), Solusoft (2022 — 2026), Parkour Devs (2024), PDS (2022), Legality Panamá (2019 — 2022). B.Sc. Systems Engineering, Universidad Interamericana de Panamá (expected Nov 2026)." src="dist/experience-noir.svg" width="100%">
+</picture>
 
-## Core Stack
+<p>
+<a href="https://www.credly.com/badges/a14c05dc-b37e-45d3-845b-07fbcaedf7fd/public_url"><picture><source media="(prefers-color-scheme: dark)" srcset="dist/badge-aws-cloud-practitioner-noir.svg"><source media="(prefers-color-scheme: light)" srcset="dist/badge-aws-cloud-practitioner-paper.svg"><img alt="AWS Certified Cloud Practitioner, 2026 — verify on Credly" src="dist/badge-aws-cloud-practitioner-noir.svg" width="49.5%"></picture></a>
+<a href="https://www.credly.com/badges/5f886c31-e20b-43e0-89ee-f5395968eb98/public_url"><picture><source media="(prefers-color-scheme: dark)" srcset="dist/badge-aws-ai-practitioner-noir.svg"><source media="(prefers-color-scheme: light)" srcset="dist/badge-aws-ai-practitioner-paper.svg"><img alt="AWS Certified AI Practitioner, 2026 — verify on Credly" src="dist/badge-aws-ai-practitioner-noir.svg" width="49.5%"></picture></a>
+</p>
 
-### Languages
-![JavaScript](https://img.shields.io/badge/JavaScript-111111?style=flat-square&logo=javascript)
-![Python](https://img.shields.io/badge/Python-111111?style=flat-square&logo=python)
-![Java](https://img.shields.io/badge/Java-111111?style=flat-square&logo=openjdk)
-![Go](https://img.shields.io/badge/Go-111111?style=flat-square&logo=go)
-![C++](https://img.shields.io/badge/C++-111111?style=flat-square&logo=cplusplus)
-![Bash](https://img.shields.io/badge/Bash-111111?style=flat-square&logo=gnubash)
+<a href="https://frjr17.com/en/contact">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dist/contact-noir.svg">
+  <source media="(prefers-color-scheme: light)" srcset="dist/contact-paper.svg">
+  <img alt="Contact: hello@frjr17.com" src="dist/contact-noir.svg" width="100%">
+</picture>
+</a>
 
-### Frontend
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react)
-![Next.js](https://img.shields.io/badge/Next.js-20232A?style=flat-square&logo=nextdotjs)
-![Angular](https://img.shields.io/badge/Angular-20232A?style=flat-square&logo=angular)
-![Vue.js](https://img.shields.io/badge/Vue.js-20232A?style=flat-square&logo=vuedotjs)
-![Shadcn UI](https://img.shields.io/badge/Shadcn_UI-20232A?style=flat-square&logo=shadcnui)
-
-### Backend, Data, and Cloud
-![Node.js](https://img.shields.io/badge/Node.js-222222?style=flat-square&logo=nodedotjs)
-![Express.js](https://img.shields.io/badge/Express.js-222222?style=flat-square&logo=express)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-222222?style=flat-square&logo=springboot)
-![Prisma](https://img.shields.io/badge/Prisma-222222?style=flat-square&logo=prisma)
-![MySQL](https://img.shields.io/badge/MySQL-222222?style=flat-square&logo=mysql)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-222222?style=flat-square&logo=postgresql)
-![MongoDB](https://img.shields.io/badge/MongoDB-222222?style=flat-square&logo=mongodb)
-![Firebase](https://img.shields.io/badge/Firebase-222222?style=flat-square&logo=firebase)
-![AWS](https://img.shields.io/badge/AWS-222222?style=flat-square&logo=amazonwebservices)
-
-### DevOps and Automation
-![Docker](https://img.shields.io/badge/Docker-101820?style=flat-square&logo=docker)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-101820?style=flat-square&logo=kubernetes)
-![Jenkins](https://img.shields.io/badge/Jenkins-101820?style=flat-square&logo=jenkins)
-![ArgoCD](https://img.shields.io/badge/ArgoCD-101820?style=flat-square&logo=argo)
-![GitHub](https://img.shields.io/badge/GitHub-101820?style=flat-square&logo=github)
-![GitLab](https://img.shields.io/badge/GitLab-101820?style=flat-square&logo=gitlab)
-![Power Platform](https://img.shields.io/badge/Power_Platform-101820?style=flat-square&logo=powerapps)
-![Power Automate](https://img.shields.io/badge/Power_Automate-101820?style=flat-square&logo=powerautomate)
-![Dataverse](https://img.shields.io/badge/Dataverse-101820?style=flat-square&logo=microsoft)
-
-## Selected Impact
-
-| Domain | Work | Result |
-| --- | --- | --- |
-| Public Sector / Energy | Built a corporate intranet with SharePoint, Power Automate, React, and JavaScript | Increased operational efficiency by 30% |
-| Logistics | Created an AI-powered invoice processing system with Dataverse, Power Automate, Azure VM, and Microsoft Entra | Optimized logistics procedures by 90% |
-| Telecommunications | Migrated asset management workflows into a Power Apps solution integrated with Teams and SharePoint | Improved approval communication by 50% |
-| Banking | Helped modernize a legacy financial desktop application into a full-stack web platform | Improved scalability and performance |
-| Law | Led a secure MERN document management platform for legal professionals | Delivered scalable document handling, authentication, APIs, and cloud storage |
-
-## Experience Highlights
-
-**Consultant, CGI**  
-Designing and delivering scalable full-stack applications, backend services, database components, Dockerized deployments, Jenkins CI/CD pipelines, and Kubernetes-based delivery workflows.
-
-**Systems Analyst and Contractor, Solusoft**  
-Built enterprise solutions across Power Platform, Dataverse, SharePoint, AI Builder, Azure, NetSuite, and React, with a focus on automation, performance, and maintainable business architecture.
-
-**Fullstack Developer, Parkour Devs**  
-Developed modern full-stack applications with React, Next.js, MySQL, Prisma, Shadcn UI, scraping workflows, internationalization, and legacy migration patterns.
-
-**Fullstack Developer, Legality Panamá**  
-Led MERN stack development for secure legal document management, including REST APIs, authentication, AWS S3 integration, Firebase, and responsive frontend workflows.
-
-## Current Focus
-
-- Cloud-native application architecture
-- Production-grade CI/CD and Kubernetes delivery
-- AI-assisted business automation
-- Legacy modernization with modern full-stack tooling
-- Developer-friendly systems that remain easy to evolve
-
-## Education and Certification
-
-- Bachelor’s Degree in Systems Engineering, Universidad Interamericana de Panamá
-- Agile Product Ownership, IC-APO Certification
-
----
-
-<div align="center">
-
-### Let's build software that survives contact with the real world.
-
-[![Connect](https://img.shields.io/badge/Get_in_Touch-hernanadrianv17%40gmail.com-0B5FFF?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hernanadrianv17@gmail.com)
-
-</div>
+<p>
+<a href="https://frjr17.com"><picture><source media="(prefers-color-scheme: dark)" srcset="dist/social-website-noir.svg"><source media="(prefers-color-scheme: light)" srcset="dist/social-website-paper.svg"><img alt="Website: frjr17.com" src="dist/social-website-noir.svg" width="24.5%"></picture></a>
+<a href="https://github.com/frjr17"><picture><source media="(prefers-color-scheme: dark)" srcset="dist/social-github-noir.svg"><source media="(prefers-color-scheme: light)" srcset="dist/social-github-paper.svg"><img alt="GitHub" src="dist/social-github-noir.svg" width="24.5%"></picture></a>
+<a href="https://linkedin.com/in/frjr17"><picture><source media="(prefers-color-scheme: dark)" srcset="dist/social-linkedin-noir.svg"><source media="(prefers-color-scheme: light)" srcset="dist/social-linkedin-paper.svg"><img alt="LinkedIn" src="dist/social-linkedin-noir.svg" width="24.5%"></picture></a>
+<a href="mailto:hello@frjr17.com"><picture><source media="(prefers-color-scheme: dark)" srcset="dist/social-email-noir.svg"><source media="(prefers-color-scheme: light)" srcset="dist/social-email-paper.svg"><img alt="Email: hello@frjr17.com" src="dist/social-email-noir.svg" width="24.5%"></picture></a>
+</p>
