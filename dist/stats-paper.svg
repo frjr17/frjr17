@@ -17,13 +17,13 @@
 <rect x=".5" y=".5" width="839" height="183" fill="#f2eee6" stroke="#d4cec2"/>
 <text class="eyebrow" x="32" y="44">01 / stats()</text>
 
-<text class="display" x="32" y="120" style="fill:#8a5300">1,284</text>
+<text class="display" x="32" y="120" style="fill:#8a5300">41</text>
 <text class="mono" x="32" y="148">contributions</text><line x1="210" y1="72" x2="210" y2="144" stroke="#d4cec2"/>
-<text class="display" x="226" y="120">143</text>
+<text class="display" x="226" y="120">9</text>
 <text class="mono" x="226" y="148">pull requests</text><line x1="404" y1="72" x2="404" y2="144" stroke="#d4cec2"/>
-<text class="display" x="420" y="120">58</text>
+<text class="display" x="420" y="120">0</text>
 <text class="mono" x="420" y="148">stars earned</text><line x1="598" y1="72" x2="598" y2="144" stroke="#d4cec2"/>
-<text class="display" x="614" y="120">41</text>
+<text class="display" x="614" y="120">7</text>
 <text class="mono" x="614" y="148">public repos</text>
 <rect class="pk" x="-2" y="-2" width="4" height="4" fill="#0f0f0e"/><rect class="pk pk2" x="-1.5" y="-1.5" width="3" height="3" fill="#5e5a52"/>
 </svg>
