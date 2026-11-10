@@ -9,7 +9,10 @@
 .label{font:600 14px "Schibsted Grotesk", system-ui, sans-serif;fill:#ece7dd}
 .mono{font:300 12px "Martian Mono", ui-monospace, Menlo, monospace;letter-spacing:.06em;fill:#9a958b}
 .case{font:400 30px "Gloock", Georgia, serif;letter-spacing:-.01em}
-@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+.pk{offset-path:path("M.5 .5H839.5V183.5H.5Z");offset-rotate:0deg;transform-box:view-box;transform-origin:0 0;animation:travel 29.2s linear infinite}
+.pk2{animation-delay:-14.6s}
+@keyframes travel{from{offset-distance:0%}to{offset-distance:100%}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.pk{display:none}}
 </style>
 <rect x=".5" y=".5" width="839" height="183" fill="#0a0a09" stroke="#2a2925"/>
 <text class="eyebrow" x="32" y="44">05 / work() — case 03</text>
@@ -18,4 +21,5 @@
 <text class="case display" x="32" y="102">Legacy financial desktop software to the web</text>
 <text class="body muted" x="32" y="134">Financial institution · 2022 — 2024</text>
 <text class="mono" x="32" y="160">react · node.js · postgresql · rest api · docker</text>
+<rect class="pk" x="-2" y="-2" width="4" height="4" fill="#ece7dd"/><rect class="pk pk2" x="-1.5" y="-1.5" width="3" height="3" fill="#9a958b"/>
 </svg>

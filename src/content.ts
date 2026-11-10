@@ -25,10 +25,18 @@ export const experience = [
   { years: "2019 — 2022", role: "Full-Stack Developer", org: "Legality Panamá" },
 ];
 
-export const credentials = [
+export const education = [
   { years: "Nov 2026", role: "B.Sc. Systems Engineering (expected)", org: "Universidad Interamericana de Panamá" },
-  { years: "2026", role: "AWS Certified Cloud Practitioner", org: "Amazon Web Services" },
-  { years: "2026", role: "AWS Certified AI Practitioner", org: "Amazon Web Services" },
 ];
 
-export const contact = { email: "hello@frjr17.com", linkedin: "linkedin.com/in/frjr17", github: "github.com/frjr17" };
+export const badges = [
+  { id: "aws-cloud-practitioner", name: "Cloud Practitioner", org: "AWS Certified", years: "2026", url: "https://www.credly.com/badges/a14c05dc-b37e-45d3-845b-07fbcaedf7fd/public_url" },
+  { id: "aws-ai-practitioner", name: "AI Practitioner", org: "AWS Certified", years: "2026", url: "https://www.credly.com/badges/5f886c31-e20b-43e0-89ee-f5395968eb98/public_url" },
+];
+
+export const socials = [
+  { id: "website", label: "frjr17.com", url: "https://frjr17.com" },
+  { id: "github", label: "github", url: "https://github.com/frjr17" },
+  { id: "linkedin", label: "linkedin", url: "https://linkedin.com/in/frjr17" },
+  { id: "email", label: "email", url: "mailto:hello@frjr17.com" },
+];

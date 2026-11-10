@@ -9,7 +9,9 @@ import { nowCard } from "./cards/now.js";
 import { workCard } from "./cards/work.js";
 import { experienceCard } from "./cards/experience.js";
 import { contactCard } from "./cards/contact.js";
-import { work } from "./content.js";
+import { badgeCard } from "./cards/badge.js";
+import { socialTile } from "./cards/social.js";
+import { badges, socials, work } from "./content.js";
 
 const login = process.env.PROFILE_LOGIN ?? "frjr17";
 const token = process.env.GH_TOKEN;
@@ -25,6 +27,8 @@ for (const t of THEMES) {
     now: nowCard(t), experience: experienceCard(t), contact: contactCard(t),
   };
   work.forEach((_, i) => (cards[`work-${String(i + 1).padStart(2, "0")}`] = workCard(t, i)));
+  badges.forEach((b, i) => (cards[`badge-${b.id}`] = badgeCard(t, i)));
+  socials.forEach((s, i) => (cards[`social-${s.id}`] = socialTile(t, i)));
   for (const [name, svg] of Object.entries(cards)) {
     writeFileSync(`dist/${name}-${t}.svg`, svg);
     console.log(`dist/${name}-${t}.svg  ${(svg.length / 1024).toFixed(0)} KB`);

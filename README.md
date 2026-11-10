@@ -65,8 +65,13 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="dist/experience-noir.svg">
   <source media="(prefers-color-scheme: light)" srcset="dist/experience-paper.svg">
-  <img alt="Experience: CGI (2024 — present), Solusoft (2022 — 2026), Parkour Devs (2024), PDS (2022), Legality Panamá (2019 — 2022). B.Sc. Systems Engineering, Universidad Interamericana de Panamá (expected Nov 2026). AWS Certified Cloud Practitioner and AI Practitioner (2026)." src="dist/experience-noir.svg" width="100%">
+  <img alt="Experience: CGI (2024 — present), Solusoft (2022 — 2026), Parkour Devs (2024), PDS (2022), Legality Panamá (2019 — 2022). B.Sc. Systems Engineering, Universidad Interamericana de Panamá (expected Nov 2026)." src="dist/experience-noir.svg" width="100%">
 </picture>
+
+<p>
+<a href="https://www.credly.com/badges/a14c05dc-b37e-45d3-845b-07fbcaedf7fd/public_url"><picture><source media="(prefers-color-scheme: dark)" srcset="dist/badge-aws-cloud-practitioner-noir.svg"><source media="(prefers-color-scheme: light)" srcset="dist/badge-aws-cloud-practitioner-paper.svg"><img alt="AWS Certified Cloud Practitioner, 2026 — verify on Credly" src="dist/badge-aws-cloud-practitioner-noir.svg" width="49.5%"></picture></a>
+<a href="https://www.credly.com/badges/5f886c31-e20b-43e0-89ee-f5395968eb98/public_url"><picture><source media="(prefers-color-scheme: dark)" srcset="dist/badge-aws-ai-practitioner-noir.svg"><source media="(prefers-color-scheme: light)" srcset="dist/badge-aws-ai-practitioner-paper.svg"><img alt="AWS Certified AI Practitioner, 2026 — verify on Credly" src="dist/badge-aws-ai-practitioner-noir.svg" width="49.5%"></picture></a>
+</p>
 
 <a href="https://frjr17.com/en/contact">
 <picture>
@@ -76,10 +81,9 @@
 </picture>
 </a>
 
-<p align="center">
-  <a href="https://frjr17.com">frjr17.com</a> ·
-  <a href="https://linkedin.com/in/frjr17">LinkedIn</a> ·
-  <a href="mailto:hello@frjr17.com">hello@frjr17.com</a> ·
-  <a href="https://www.credly.com/badges/a14c05dc-b37e-45d3-845b-07fbcaedf7fd/public_url">AWS Cloud Practitioner</a> ·
-  <a href="https://www.credly.com/badges/5f886c31-e20b-43e0-89ee-f5395968eb98/public_url">AWS AI Practitioner</a>
+<p>
+<a href="https://frjr17.com"><picture><source media="(prefers-color-scheme: dark)" srcset="dist/social-website-noir.svg"><source media="(prefers-color-scheme: light)" srcset="dist/social-website-paper.svg"><img alt="Website: frjr17.com" src="dist/social-website-noir.svg" width="24.5%"></picture></a>
+<a href="https://github.com/frjr17"><picture><source media="(prefers-color-scheme: dark)" srcset="dist/social-github-noir.svg"><source media="(prefers-color-scheme: light)" srcset="dist/social-github-paper.svg"><img alt="GitHub" src="dist/social-github-noir.svg" width="24.5%"></picture></a>
+<a href="https://linkedin.com/in/frjr17"><picture><source media="(prefers-color-scheme: dark)" srcset="dist/social-linkedin-noir.svg"><source media="(prefers-color-scheme: light)" srcset="dist/social-linkedin-paper.svg"><img alt="LinkedIn" src="dist/social-linkedin-noir.svg" width="24.5%"></picture></a>
+<a href="mailto:hello@frjr17.com"><picture><source media="(prefers-color-scheme: dark)" srcset="dist/social-email-noir.svg"><source media="(prefers-color-scheme: light)" srcset="dist/social-email-paper.svg"><img alt="Email: hello@frjr17.com" src="dist/social-email-noir.svg" width="24.5%"></picture></a>
 </p>

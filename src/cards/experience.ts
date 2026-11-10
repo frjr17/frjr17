@@ -1,6 +1,6 @@
 import { esc, frame, PAD, W } from "./frame.js";
 import { palette, type ThemeId } from "../theme.js";
-import { credentials, experience } from "../content.js";
+import { education, experience } from "../content.js";
 
 type Row = { years: string; role: string; org: string };
 
@@ -19,11 +19,11 @@ export function experienceCard(theme: ThemeId) {
   }).join("");
   const exp = rows(experience);
   y += 28;
-  const subhead = `<text class="eyebrow" x="${PAD}" y="${y}">education() &amp; certifications()</text>`;
+  const subhead = `<text class="eyebrow" x="${PAD}" y="${y}">education()</text>`;
   y += 16;
-  const cred = rows(credentials);
+  const cred = rows(education);
   return frame({
-    theme, h: y + PAD - 4, eyebrow: "06 / experience()", title: "Experience, education and certifications",
+    theme, h: y + PAD - 4, eyebrow: "06 / experience()", title: "Experience and education",
     faces: ["sans", "sansBold"],
     body: exp + subhead + cred,
   });

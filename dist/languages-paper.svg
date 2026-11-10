@@ -9,7 +9,10 @@
 .label{font:600 14px "Schibsted Grotesk", system-ui, sans-serif;fill:#0f0f0e}
 .mono{font:300 12px "Martian Mono", ui-monospace, Menlo, monospace;letter-spacing:.06em;fill:#5e5a52}
 .seg{transform-box:fill-box;transform-origin:left;animation:grow .7s cubic-bezier(.2,.7,.2,1) both}@keyframes grow{from{transform:scaleX(0)}to{transform:none}}
-@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+.pk{offset-path:path("M.5 .5H839.5V189.5H.5Z");offset-rotate:0deg;transform-box:view-box;transform-origin:0 0;animation:travel 29.4s linear infinite}
+.pk2{animation-delay:-14.7s}
+@keyframes travel{from{offset-distance:0%}to{offset-distance:100%}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.pk{display:none}}
 </style>
 <rect x=".5" y=".5" width="839" height="189" fill="#f2eee6" stroke="#d4cec2"/>
 <text class="eyebrow" x="32" y="44">02 / languages()</text>
@@ -28,4 +31,5 @@
 <text class="mono" x="396" y="158" text-anchor="end">6.0%</text><rect x="420" y="148" width="10" height="10" fill="#0f0f0e" fill-opacity="0.22"/>
 <text class="label" x="438" y="158">Other</text>
 <text class="mono" x="590" y="158" text-anchor="end">6.0%</text>
+<rect class="pk" x="-2" y="-2" width="4" height="4" fill="#0f0f0e"/><rect class="pk pk2" x="-1.5" y="-1.5" width="3" height="3" fill="#5e5a52"/>
 </svg>
