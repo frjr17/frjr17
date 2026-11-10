@@ -7,6 +7,18 @@ export const PAD = 32;  // space-3
 export const esc = (s: string) =>
   s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
+/** Greedy word wrap by an average glyph width (SVG text has no wrapping). */
+export function wrap(text: string, maxW: number, avg: number): string[] {
+  const lines: string[] = [];
+  let line = "";
+  for (const word of text.split(" ")) {
+    const next = line ? `${line} ${word}` : word;
+    if (next.length * avg > maxW && line) { lines.push(line); line = word; } else line = next;
+  }
+  if (line) lines.push(line);
+  return lines;
+}
+
 export const fmt = (n: number) => (n >= 10000 ? `${(n / 1000).toFixed(1)}k` : n.toLocaleString("en-US"));
 
 /** Card shell: surface-100 ground, square corners, line hairline, lowercase mono eyebrow. */
