@@ -16,18 +16,18 @@
 </style>
 <rect x=".5" y=".5" width="839" height="189" fill="#0a0a09" stroke="#2a2925"/>
 <text class="eyebrow" x="32" y="44">02 / languages()</text>
-<rect class="seg" style="animation-delay:0ms" x="32.0" y="72" width="526.7" height="12" fill="#ffb224" fill-opacity="1"/><rect class="seg" style="animation-delay:60ms" x="561.7" y="72" width="178.6" height="12" fill="#ece7dd" fill-opacity="0.78"/><rect class="seg" style="animation-delay:120ms" x="743.3" y="72" width="25.1" height="12" fill="#ece7dd" fill-opacity="0.6"/><rect class="seg" style="animation-delay:180ms" x="771.4" y="72" width="21.8" height="12" fill="#ece7dd" fill-opacity="0.46"/><rect class="seg" style="animation-delay:240ms" x="796.2" y="72" width="4.5" height="12" fill="#ece7dd" fill-opacity="0.36"/><rect class="seg" style="animation-delay:300ms" x="803.8" y="72" width="2.3" height="12" fill="#ece7dd" fill-opacity="0.28"/><rect x="32" y="114" width="10" height="10" fill="#ffb224" fill-opacity="1"/>
+<rect class="seg" style="animation-delay:0ms" x="32.0" y="72" width="518.7" height="12" fill="#ffb224" fill-opacity="1"/><rect class="seg" style="animation-delay:60ms" x="553.7" y="72" width="175.8" height="12" fill="#ece7dd" fill-opacity="0.78"/><rect class="seg" style="animation-delay:120ms" x="732.5" y="72" width="24.7" height="12" fill="#ece7dd" fill-opacity="0.6"/><rect class="seg" style="animation-delay:180ms" x="760.2" y="72" width="21.5" height="12" fill="#ece7dd" fill-opacity="0.46"/><rect class="seg" style="animation-delay:240ms" x="784.7" y="72" width="13.6" height="12" fill="#ece7dd" fill-opacity="0.36"/><rect class="seg" style="animation-delay:300ms" x="801.3" y="72" width="4.5" height="12" fill="#ece7dd" fill-opacity="0.28"/><rect x="32" y="114" width="10" height="10" fill="#ffb224" fill-opacity="1"/>
 <text class="label" x="50" y="124">TypeScript</text>
-<text class="mono" x="202" y="124" text-anchor="end">69.2%</text><rect x="226" y="114" width="10" height="10" fill="#ece7dd" fill-opacity="0.78"/>
+<text class="mono" x="202" y="124" text-anchor="end">68.2%</text><rect x="226" y="114" width="10" height="10" fill="#ece7dd" fill-opacity="0.78"/>
 <text class="label" x="244" y="124">Python</text>
-<text class="mono" x="396" y="124" text-anchor="end">23.5%</text><rect x="420" y="114" width="10" height="10" fill="#ece7dd" fill-opacity="0.6"/>
+<text class="mono" x="396" y="124" text-anchor="end">23.1%</text><rect x="420" y="114" width="10" height="10" fill="#ece7dd" fill-opacity="0.6"/>
 <text class="label" x="438" y="124">CSS</text>
-<text class="mono" x="590" y="124" text-anchor="end">3.3%</text><rect x="614" y="114" width="10" height="10" fill="#ece7dd" fill-opacity="0.46"/>
+<text class="mono" x="590" y="124" text-anchor="end">3.2%</text><rect x="614" y="114" width="10" height="10" fill="#ece7dd" fill-opacity="0.46"/>
 <text class="label" x="632" y="124">PowerShell</text>
-<text class="mono" x="784" y="124" text-anchor="end">2.9%</text><rect x="32" y="148" width="10" height="10" fill="#ece7dd" fill-opacity="0.36"/>
-<text class="label" x="50" y="158">JavaScript</text>
-<text class="mono" x="202" y="158" text-anchor="end">0.6%</text><rect x="226" y="148" width="10" height="10" fill="#ece7dd" fill-opacity="0.28"/>
-<text class="label" x="244" y="158">HTML</text>
-<text class="mono" x="396" y="158" text-anchor="end">0.3%</text>
+<text class="mono" x="784" y="124" text-anchor="end">2.8%</text><rect x="32" y="148" width="10" height="10" fill="#ece7dd" fill-opacity="0.36"/>
+<text class="label" x="50" y="158">Shell</text>
+<text class="mono" x="202" y="158" text-anchor="end">1.8%</text><rect x="226" y="148" width="10" height="10" fill="#ece7dd" fill-opacity="0.28"/>
+<text class="label" x="244" y="158">JavaScript</text>
+<text class="mono" x="396" y="158" text-anchor="end">0.6%</text>
 <rect class="pk" x="-2" y="-2" width="4" height="4" fill="#ece7dd"/><rect class="pk pk2" x="-1.5" y="-1.5" width="3" height="3" fill="#9a958b"/>
 </svg>
